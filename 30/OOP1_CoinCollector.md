@@ -39,7 +39,7 @@ In this assignment, the `Coin` class is your blueprint, and each coin you create
 
 ---
 
-## 📋 Assignment Overview
+## 🎯 Assignment Overview
 
 Create a coin collector inventory system that allows users to:
 - View details about Canadian coins

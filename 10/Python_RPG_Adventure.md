@@ -39,8 +39,8 @@ You'll create a side-scrolling adventure game featuring:
 ### How This Works
 
 Each phase has **three difficulty levels**:
-- **Level 1 (Basic)**: Required for 50-64% - Core functionality
-- **Level 2 (Proficient)**: Required for 65-79% - Enhanced features
+- **Level 1 (Core)**: Required for 50-64% - Core functionality
+- **Level 2 (Enhanced)**: Required for 65-79% - Enhanced features
 - **Level 3 (Advanced)**: Required for 80-100% - Creative additions
 
 Complete higher-level tasks to earn a better grade!
@@ -106,7 +106,7 @@ def create_character():
 
 ### ✨ Assignment Tasks
 
-#### Level 1: Basic (Required for 50-64%)
+#### Level 1: Core (Required for 50-64%)
 
 - [ ] **Task 1.1**: Modify `display_banner()` to show your own game title
 - [ ] **Task 1.2**: Test `get_character_name()` with different inputs
@@ -114,7 +114,7 @@ def create_character():
 - [ ] **Task 1.4**: Take a screenshot of your character summary
 - [ ] **Task 1.5**: Write down what each function does in your own words
 
-#### Level 2: Proficient (Required for 65-79%)
+#### Level 2: Enhanced (Required for 65-79%)
 
 - [ ] **Task 2.1**: Add comments explaining each function's purpose
 - [ ] **Task 2.2**: Modify starting gold range to 75-150
@@ -255,7 +255,7 @@ def combat_loop(player, monster):
 
 ### ✨ Assignment Tasks
 
-#### Level 1: Basic (50-64%)
+#### Level 1: Core (50-64%)
 
 - [ ] **Task 1.1**: Create a simple monster dictionary with name, health, damage
 - [ ] **Task 1.2**: Implement basic attack function (player deals 5-15 damage)
@@ -263,7 +263,7 @@ def combat_loop(player, monster):
 - [ ] **Task 1.4**: Display combat messages ("You hit for X damage!")
 - [ ] **Task 1.5**: Show victory or defeat message when combat ends
 
-#### Level 2: Proficient (65-79%)
+#### Level 2: Enhanced (65-79%)
 
 - [ ] **Task 2.1**: Add player action menu (Attack/Defend/Flee)
 - [ ] **Task 2.2**: Implement defend action (reduces damage by 50%, can't attack same turn)
@@ -348,7 +348,7 @@ Create an equipment and inventory system that lets players collect and use items
 
 ### ✨ Assignment Tasks
 
-#### Level 1: Basic (50-64%)
+#### Level 1: Core (50-64%)
 
 - [ ] **Task 1.1**: Create weapon dictionary with 3 weapons (name, damage, price)
 - [ ] **Task 1.2**: Create shield dictionary with 2 shields (name, defense, price)
@@ -356,7 +356,7 @@ Create an equipment and inventory system that lets players collect and use items
 - [ ] **Task 1.4**: Create `equip_weapon()` function
 - [ ] **Task 1.5**: Display currently equipped items
 
-#### Level 2: Proficient (65-79%)
+#### Level 2: Enhanced (65-79%)
 
 - [ ] **Task 2.1**: Add health and mana potions to inventory
 - [ ] **Task 2.2**: Implement `use_potion()` (Health potion = 30 HP, Mana = 20 MP)
@@ -427,7 +427,7 @@ Add a spell-casting system with different spells that consume mana. This teaches
 
 ### ✨ Assignment Tasks
 
-#### Level 1: Basic (50-64%)
+#### Level 1: Core (50-64%)
 
 - [ ] **Task 1.1**: Create spell dictionary with 3 spells
   - Fireball: 20 damage, 15 mana
@@ -439,7 +439,7 @@ Add a spell-casting system with different spells that consume mana. This teaches
 - [ ] **Task 1.4**: Display available spells with mana costs
 - [ ] **Task 1.5**: Update combat to include spell casting option
 
-#### Level 2: Proficient (65-79%)
+#### Level 2: Enhanced (65-79%)
 
 - [ ] **Task 2.1**: Add 2 more spells with unique effects (Ice Blast, Shield)
 - [ ] **Task 2.2**: Implement spell levels (spells get stronger as they level up)
@@ -509,7 +509,7 @@ Build a system that randomly generates monster encounters as the player explores
 
 ### ✨ Assignment Tasks
 
-#### Level 1: Basic (50-64%)
+#### Level 1: Core (50-64%)
 
 - [ ] **Task 1.1**: Create list of 3 monster types
 - [ ] **Task 1.2**: Use `random.choice()` to select random monster
@@ -517,7 +517,7 @@ Build a system that randomly generates monster encounters as the player explores
 - [ ] **Task 1.4**: 30% chance of encounter per step
 - [ ] **Task 1.5**: Display encounter messages
 
-#### Level 2: Proficient (65-79%)
+#### Level 2: Enhanced (65-79%)
 
 - [ ] **Task 2.1**: Add 5 different monster types with varying difficulty
 - [ ] **Task 2.2**: Implement weighted probability (rare monsters less common)
@@ -566,7 +566,7 @@ Create a loot drop system where defeated monsters and treasure chests give rando
 
 ### ✨ Assignment Tasks
 
-#### Level 1: Basic (50-64%)
+#### Level 1: Core (50-64%)
 
 - [ ] **Task 1.1**: Create `generate_loot()` function
 - [ ] **Task 1.2**: Random gold drops (10-50 based on monster)
@@ -574,7 +574,7 @@ Create a loot drop system where defeated monsters and treasure chests give rando
 - [ ] **Task 1.4**: Display loot to player
 - [ ] **Task 1.5**: Add loot to inventory
 
-#### Level 2: Proficient (65-79%)
+#### Level 2: Enhanced (65-79%)
 
 - [ ] **Task 2.1**: Add equipment drops (10% chance)
 - [ ] **Task 2.2**: Create treasure chest system
@@ -619,7 +619,7 @@ Build a town area with NPCs (healer, shopkeeper) where players can rest, heal, b
 
 ### ✨ Assignment Tasks
 
-#### Level 1: Basic (50-64%)
+#### Level 1: Core (50-64%)
 
 - [ ] **Task 1.1**: Create town menu (Healer/Shop/Leave)
 - [ ] **Task 1.2**: Implement healer (restore full HP/MP for 50 gold)
@@ -627,7 +627,7 @@ Build a town area with NPCs (healer, shopkeeper) where players can rest, heal, b
 - [ ] **Task 1.4**: Display current gold
 - [ ] **Task 1.5**: Validate purchases (enough gold)
 
-#### Level 2: Proficient (65-79%)
+#### Level 2: Enhanced (65-79%)
 
 - [ ] **Task 2.1**: Add sell functionality (75% of purchase price)
 - [ ] **Task 2.2**: Multiple healer options (HP only, MP only, both)
@@ -676,7 +676,7 @@ Combine all previous phases into a complete, playable game. Add main menu, save/
 
 ### ✨ Assignment Tasks
 
-#### Level 1: Basic (50-64%)
+#### Level 1: Core (50-64%)
 
 - [ ] **Task 1.1**: Create main menu
 - [ ] **Task 1.2**: Integrate all phases
@@ -684,7 +684,7 @@ Combine all previous phases into a complete, playable game. Add main menu, save/
 - [ ] **Task 1.4**: Victory condition (defeat 10 monsters)
 - [ ] **Task 1.5**: Test all systems together
 
-#### Level 2: Proficient (65-79%)
+#### Level 2: Enhanced (65-79%)
 
 - [ ] **Task 2.1**: Add save/load system (to file)
 - [ ] **Task 2.2**: Statistics tracking

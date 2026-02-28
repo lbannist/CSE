@@ -1,4 +1,5 @@
 
+Welcome to your introduction into the Python programming language.
 
 # Print ()
 [![Watch the video](https://img.youtube.com/vi/IdXTxbBfDbc/maxresdefault.jpg)](https://youtu.be/IdXTxbBfDbc)

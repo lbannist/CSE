@@ -5,6 +5,22 @@ Welcome to your introduction into the Python programming language.
 [![Watch the video](https://img.youtube.com/vi/IdXTxbBfDbc/maxresdefault.jpg)](https://youtu.be/IdXTxbBfDbc)
 
 ### [Watch this video on YouTube](https://youtu.be/IdXTxbBfDbc)
+
+## Challenge
+Create a single print statement similar to the example below.  Once you are done, show your teacher
+
+ Hello my name is John Smith
+Three things I like to do are  
+- Soccer, 
+- Painting, and 
+- Dungeons and Dragons 
+
+
+
+> [!TIP]
+> Use the special characters covered in the video
+
+
 # Comments
 [![Watch the video](https://img.youtube.com/vi/GEOnKhm940k/maxresdefault.jpg)](https://youtu.be/GEOnKhm940k)
 

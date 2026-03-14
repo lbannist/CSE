@@ -9,3 +9,203 @@
 [![Watch the video](https://img.youtube.com/vi/5ZOxqAGWy70/maxresdefault.jpg)](https://youtu.be/5ZOxqAGWy70)
 
 ### [Watch this video on YouTube](https://youtu.be/5ZOxqAGWy70)
+
+
+# Python Strings & Numbers — Coding Challenge
+
+**Topics Covered:** f-strings, `random`, `round()`, `ceil()`, `floor()`, conditionals, variables  
+**Instructions:** Complete the challenge below. Write your code in the space provided. Test your program multiple times since the results will be different each run!
+
+---
+
+## Challenge: The Hero's Encounter
+
+### 📋 Your Task
+Write a program that tells the story of a hero walking through the woods and encountering a Goblin. The hero and Goblin will battle for **three rounds**, with random attack rolls each round determining who lands a hit. Track the health of both the hero and Goblin throughout the fight and print the outcome at the end.
+
+### 🗺️ The Story Setup
+- Ask the user for their **hero's name** and **hero's class** (Warrior, Mage, or Rogue)
+- Each class gets a different damage multiplier applied to their attack roll:
+
+| Class | Damage Multiplier |
+|---|---|
+| Warrior | 1.0x (no change) |
+| Mage | 1.5x (use `round()` to clean up the result) |
+| Rogue | 1.2x (use `round()` to clean up the result) |
+
+### ⚔️ The Battle Rules
+
+| Setting | Value |
+|---|---|
+| Hero starting health | 20 |
+| Goblin starting health | 18 |
+| Hero attack roll | `random.randint(1, 20)` |
+| Goblin attack roll | `random.randint(1, 15)` |
+| Damage dealt (if hero wins round) | `round((hero_roll - goblin_roll) / 2)` |
+| Damage dealt (if goblin wins round) | `round((goblin_roll - hero_roll) / 2)` |
+| Tie | Print `"The attacks cancel out! No damage dealt."` |
+
+- Each round, compare the two rolls using conditionals to decide who wins that round
+- Subtract the damage from the loser's health each round
+- Use `floor()` from the `math` module to make sure health never displays as a decimal
+
+### 🖥️ Expected Output
+Your program should produce output that looks something like this (exact numbers will vary each run):
+
+```
+=========================================
+          ⚔️  The Hero's Encounter
+=========================================
+You enter the dark woods, sword in hand...
+A twig snaps beneath your feet. You freeze.
+Suddenly, a Goblin leaps from the shadows!
+
+Alex the Warrior tightens their grip and prepares to fight!
+=========================================
+
+--- Round 1 ---
+Alex rolls a 14... Goblin rolls a 9...
+Alex lands a hit! The Goblin takes 3 damage.
+Alex Health: 20  |  Goblin Health: 15
+
+--- Round 2 ---
+Alex rolls a 7... Goblin rolls a 12...
+The Goblin slashes back! Alex takes 3 damage.
+Alex Health: 17  |  Goblin Health: 15
+
+--- Round 3 ---
+Alex rolls a 18... Goblin rolls a 3...
+Alex lands the final blow! The Goblin takes 8 damage.
+Alex Health: 17  |  Goblin Health: 7
+
+=========================================
+The battle is over!
+Alex defeated the Goblin and walks away victorious!
+=========================================
+```
+
+### 💡 Hints
+- Add `import random` and `import math` at the very top of your program
+- Use `random.randint(1, 20)` to roll the hero's attack and `random.randint(1, 15)` for the Goblin's
+- Use `round()` to clean up any decimal damage values
+- Use `math.floor()` to make sure health displays as a whole number
+- Copy and adjust your Round 1 code for Rounds 2 and 3 — the logic is the same each round
+- To determine the final outcome after 3 rounds, compare the remaining health of each character using conditionals
+
+### 🖊️ Your Code
+
+```python
+# Challenge: The Hero's Encounter
+# Your Name:
+# Date:
+
+import random
+import math
+
+# Step 1: Ask the user for their hero's name and class
+
+
+# Step 2: Set the damage multiplier based on hero class using if / elif / else
+
+
+# Step 3: Set starting health for the hero and goblin
+
+
+# Step 4: Print the opening story using f-strings
+
+
+# Step 5: Round 1 — roll attacks, compare, calculate damage, update health, print results
+
+
+# Step 6: Round 2 — roll attacks, compare, calculate damage, update health, print results
+
+
+# Step 7: Round 3 — roll attacks, compare, calculate damage, update health, print results
+
+
+# Step 8: Print the final outcome based on remaining health
+
+```
+
+### 🧪 Test Your Program
+Run your program at least **3 times** and record your observations:
+
+| Test | Hero Class | Did the multiplier work? | Who won? | Did health update correctly each round? |
+|---|---|---|---|---|
+| 1 | Warrior | | | |
+| 2 | Mage | | | |
+| 3 | Rogue | | | |
+
+> **What did your program print for Test 2 (Mage)?**
+>
+> *(paste your output here)*
+
+---
+
+## 🏆 Extension: Random Monster Encounter
+
+Instead of always fighting a Goblin, use `random.randint(1, 3)` at the start of the program to randomly select a monster. Use conditionals to set the monster's name and starting health based on the roll:
+
+| Roll | Monster | Starting Health | Attack Roll |
+|---|---|---|---|
+| 1 | Goblin | 18 | `random.randint(1, 15)` |
+| 2 | Orc | 25 | `random.randint(1, 18)` |
+| 3 | Dark Wizard | 30 | `random.randint(1, 20)` |
+
+Update your opening story to reveal the monster dramatically using an f-string, and update all three rounds to use the monster's name and attack roll instead of the Goblin's.
+
+```python
+# Extension: Random Monster Encounter
+# Your Name:
+# Date:
+
+import random
+import math
+
+# Step 1: Ask for hero name and class
+
+
+# Step 2: Set damage multiplier
+
+
+# Step 3: Roll to determine the monster and set its name, health, and attack range
+
+
+# Step 4: Set hero starting health
+
+
+# Step 5: Print the opening story revealing the monster
+
+
+# Step 6: Rounds 1, 2, and 3 using the monster's stats
+
+
+# Step 7: Print the final outcome
+
+```
+
+---
+
+## 🏁 Reflection Questions
+
+Answer the following questions in your own words:
+
+1. Why do we use `random.randint()` instead of just picking a number ourselves? What does it add to the program?
+
+> *Your answer:*
+
+2. Why did we need to use `round()` after applying the Mage or Rogue damage multiplier?
+
+> *Your answer:*
+
+3. What is an f-string and give one example of how you used it in your program?
+
+> *Your answer:*
+
+4. In the extension, how did you use a single random number to set multiple variables (name, health, attack range)? Explain your logic.
+
+> *Your answer:*
+
+5. What was the trickiest part of this challenge and how did you solve it?
+
+> *Your answer:*

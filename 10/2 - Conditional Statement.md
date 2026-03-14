@@ -11,7 +11,7 @@
 ### [Watch this video on YouTube](https://youtu.be/OZ7AinsDYVo)
 
 
-# Logicl Operators
+# Logic Operators
 [![Watch the video](https://img.youtube.com/vi/yFaYylK1yCE/maxresdefault.jpg)](https://youtu.be/yFaYylK1yCE)
 
 ### [Watch this video on YouTube](https://youtu.be/yFaYylK1yCE)

@@ -1,6 +1,7 @@
 
+[![Watch the video](https://img.youtube.com/vi/uge4A1LHsNk/maxresdefault.jpg)](https://youtu.be/uge4A1LHsNk)
 
-Using the video https://www.youtube.com/watch?v=uge4A1LHsNk
+### [Watch this video on YouTube](https://youtu.be/uge4A1LHsNk)
 
 At school, VS Code and the Python IDE are already installed. 
 At home, you will need to install VS Code and the newest IDE

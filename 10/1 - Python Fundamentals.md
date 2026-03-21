@@ -30,9 +30,6 @@ Once you have finished this step.  Show your teacher.
 
 ### [Watch this video on YouTube](https://youtu.be/YHgkADDCWJg)
 
-## Challenge
-
-
 
 
 

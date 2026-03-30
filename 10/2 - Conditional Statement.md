@@ -1,3 +1,35 @@
+# Conditional Statements in Python
+
+Conditional statements are one of the most fundamental building blocks in programming. They allow your code to make decisions — executing different actions depending on whether a condition is true or false. In Python, this is done using `if`, `elif`, and `else`.
+
+## The Basic Structure
+
+```python
+age = 18
+
+if age >= 18:
+    print("You are an adult.")
+elif age >= 13:
+    print("You are a teenager.")
+else:
+    print("You are a child.")
+```
+
+The `if` keyword checks the first condition. If it's true, that block runs and the rest is skipped. If it's false, Python moves to `elif` (short for "else if") to check the next condition. The `else` block acts as a catch-all — it runs only if none of the previous conditions were met.
+
+## Comparison Operators
+
+Conditionals rely on operators to evaluate conditions:
+
+- `==` equal to
+- `!=` not equal to
+- `>` / `<` greater / less than
+- `>=` / `<=` greater or equal / less or equal
+
+## Why They Matter
+
+Without conditionals, every program would run the same way every time, regardless of input. Conditionals give your programs flexibility and intelligence — they're what make software feel responsive and dynamic. Mastering them is essential to writing useful, real-world code.
+
 
 # Boolean Functions
 [![Watch the video](https://img.youtube.com/vi/v8tuWg_rvjE/maxresdefault.jpg)](https://youtu.be/v8tuWg_rvjE)

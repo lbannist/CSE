@@ -9,7 +9,7 @@ Welcome to your introduction into the Python programming language.
 ## Challenge
 Every time someone starts their journey into a new coding language, it is customary to have their first program say "Hello World!!"
 
-using what you ahve learned from this video, create a quick program that when run, the program outputs the simple statements, "Hello World!!"
+using what you have learned from this video, create a quick program that when run, the program outputs the simple statements, "Hello World!!"
 
 If you cannot get this to happen, check that you are in VS Code and are pressing the play button.  If so, but it still does not run, call over your teacher to ask for help.
 

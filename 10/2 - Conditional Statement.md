@@ -37,7 +37,7 @@ Without conditionals, every program would run the same way every time, regardles
 ### [Watch this video on YouTube](https://youtu.be/v8tuWg_rvjE)
 
 
-# Comparitors
+# Comparators
 [![Watch the video](https://img.youtube.com/vi/OZ7AinsDYVo/maxresdefault.jpg)](https://youtu.be/OZ7AinsDYVo)
 
 ### [Watch this video on YouTube](https://youtu.be/OZ7AinsDYVo)

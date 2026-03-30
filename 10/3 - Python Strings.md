@@ -120,3 +120,9 @@ Does seem like it saves much time, but as more and more is in your print stateme
 [![Watch the video](https://img.youtube.com/vi/H_TPIAEJl68/maxresdefault.jpg)](https://youtu.be/H_TPIAEJl68)
 
 ### [Watch this video on YouTube](https://youtu.be/H_TPIAEJl68)
+
+This video covers f-strings in greater detail, including most of the formatting that can be added for outputs.
+
+[![Watch the video](https://img.youtube.com/vi/nghuHvKLhJA/maxresdefault.jpg)](https://youtu.be/nghuHvKLhJA)
+
+### [Watch this video on YouTube](https://youtu.be/nghuHvKLhJA)

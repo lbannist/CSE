@@ -21,7 +21,25 @@ If you cannot get this to happen, check that you are in VS Code and are pressing
 
 
 ## Challenge
-Using your previous .py, add a comment above the code explaining what the code does.   Add in two inline comments
+Using your previous .py, add a comment above the code explaining what the code does.   Add in two inline comments.
+Single Line Comment is by far the most common type and uses a #
+```python
+# This is a true multiline comment.
+# Every single line begins with a hash symbol.
+# This approach is highly favored by the Python community.
+print("Hello, World!")
+
+```
+Multi-Line Comments use triple """
+```python
+"""
+This acts as a multiline comment block.
+It uses multi-line string literals.
+Keep in mind that Python still parses this text.
+"""
+print("Hello, World!")
+
+```
 
 Once you have finished this step.  Show your teacher.
 

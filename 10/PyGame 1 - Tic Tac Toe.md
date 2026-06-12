@@ -213,6 +213,7 @@ Your program **must** include all of the following:
 - [ ] A winner or draw message is shown on screen using your chosen font
 - [ ] The game stops accepting clicks after the game ends
 - [ ] Closing the window exits the program cleanly
+- [ ] Added four ⭐ Extensions (any combination)
 
 ---
 
@@ -368,5 +369,4 @@ Before handing in, tick every box:
 - [ ] Game stops accepting moves after it ends
 - [ ] Window closes cleanly using the close button
 - [ ] Code is neat with comments explaining each major section
-- [ ] *(Optional)* At least one extension challenge attempted
-- [ ] *(Optional)* Extension challenge is clearly labelled with a comment `# Extension: ...`
+- [ ] Added four ⭐ Extensions (any combination). Extension challenge is clearly labelled with a comment `# Extension: ...`

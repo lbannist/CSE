@@ -26,7 +26,7 @@ By the end of this lesson you will be able to:
 
 ## 🎬 Watch First — The Starfleet Video Library
 
-There are eight short videos for this lesson. They are organised into four groups. **Watch each group, then read the matching section of notes and complete the practice block before moving on.** Do not watch all eight and then try to read — the concepts build on each other.
+There are many short videos for this lesson. They are organised into four groups. **Watch each group, then read the matching section of notes and complete the practice block before moving on.** Do not watch all eight and then try to read — the concepts build on each other.
 
 ---
 
